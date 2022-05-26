@@ -1,4 +1,5 @@
 import { db } from "./db.js"
-;(async () => {
+const main = async () => {
     await db.start()
-})()
+}
+main()
